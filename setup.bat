@@ -15,7 +15,7 @@ for %%s in (cf-framework, sle-admin, sle-epos) do (
     set %%s=%%s: =%
 
     :: CLONE REPO
-    git clone --recursive https://github.com/small-stone-group/%%s.git
+    git clone --recursive https://github.com/smallstone-uk/%%s.git
     echo %%s cloned
 
     :: MAKE DIRECTORY JUNCTION
